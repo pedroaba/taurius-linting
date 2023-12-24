@@ -5,12 +5,13 @@
   "description": "Simple eslint configuration of Pedro Augusto <pedr.augustobarbosa.aparecido@gmail.com>",
   "main": "index.js",
   "repository": {
-    
+    "url": "pedroaba/taurius-linting"
   },
-  "scripts": {},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Pedro Augusto <pedr.augustobarbosa.aparecido@gmail.com>",
+  "license": "MIT",
   "peerDependencies": {
     "eslint": "^8.0.0",
     "typescript": ">=4"
