@@ -1,6 +1,6 @@
 {
   "name": "@taurius-linting/eslint",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
   "description": "Simple eslint configuration of Pedro Augusto <pedr.augustobarbosa.aparecido@gmail.com>",
   "main": "index.js",

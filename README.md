@@ -1,61 +1,61 @@
-# Descrição do Taurius ESLint Config
+# Taurius ESLint Config Description
 
-O Taurius ESLint Config é um conjunto abrangente de configurações para o ESLint, uma ferramenta popular de linting para JavaScript. Projetado para melhorar a consistência e qualidade do código, este pacote oferece uma configuração padrão sólida, incluindo plugins essenciais para projetos React, React Hooks, JSX e acessibilidade (a11y), além de integração com o Prettier para garantir formatação consistente.
+The Taurius ESLint Config is a comprehensive set of configurations for ESLint, a popular linting tool for JavaScript. Designed to enhance code consistency and quality, this package provides a solid default configuration, including essential plugins for React, React Hooks, JSX, and accessibility (a11y), along with integration with Prettier to ensure consistent formatting.
 
-## Configurações Incluídas
+## Included Configurations
 
-- **Configuração Padrão:** Configuração base padrão.
-- **Plugin React:** Suporte para projetos React.
-- **Plugin React Hooks:** Regras específicas para Hooks do React.
-- **Plugin JSX a11y:** Regras para garantir acessibilidade em código JSX.
-- **Prettier:** Integração com o Prettier para consistência de formatação.
+- **Standard Configuration:** Default base configuration.
+- **React Plugin:** Support for React projects.
+- **React Hooks Plugin:** Specific rules for React Hooks.
+- **JSX a11y Plugin:** Rules to ensure accessibility in JSX code.
+- **Prettier:** Integration with Prettier for consistent formatting.
 
-## Configuração e Uso
+## Configuration and Usage
 
-### Instalação
+### Installation
 
-Você pode instalar o Taurius ESLint Config através dos seguintes comandos:
+You can install the Taurius ESLint Config using the following commands:
 
 ```shell
-# Comando pnpm
+# pnpm command
 > $ pnpm i -D @taurius-linting/eslint
 
-# Comando npm
+# npm command
 > $ npm i -D @taurius-linting/eslint
 
-# Comando yarn
+# yarn command
 > $ yarn add -D @taurius-linting/eslint
 ```
 
-### Uso
+### Usage
 
-Configure o ESLint em seu projeto editando o arquivo `.eslintrc.json` com uma das seguintes extensões, dependendo do tipo de projeto:
+Configure ESLint in your project by editing the `.eslintrc.json` file with one of the following extensions, depending on the project type:
 
-- Para projetos Next.js:
+- For Next.js projects:
 
 ```json
-// Dentro do arquivo .eslintrc.json
+// Inside the .eslintrc.json file
 {
   "extends": ["@taurius-linting/eslint/next"]
 }
 ```
 
-- Para projetos React puro:
+- For pure React projects:
 
 ```json
-// Dentro do arquivo .eslintrc.json
+// Inside the .eslintrc.json file
 {
   "extends": ["@taurius-linting/eslint/react"]
 }
 ```
 
-- Para projetos Node.js puros:
+- For pure Node.js projects:
 
 ```json
-// Dentro do arquivo .eslintrc.json
+// Inside the .eslintrc.json file
 {
   "extends": ["@taurius-linting/eslint/node"]
 }
 ```
 
-O Taurius ESLint Config simplifica a configuração do ESLint, fornecendo um ponto de partida robusto para garantir a consistência e qualidade do código em diferentes tipos de projetos JavaScript.
+The Taurius ESLint Config simplifies ESLint configuration, providing a robust starting point to ensure code consistency and quality across different types of JavaScript projects.
